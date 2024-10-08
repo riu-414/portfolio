@@ -1,0 +1,13 @@
+/* common */
+body {
+  color: #434343;
+  background-color: #f8f8f8;
+}
+
+img {
+  width: 100%;
+}
+
+a:hover {
+  opacity: .7;
+}
