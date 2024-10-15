@@ -6,6 +6,8 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 a:hover {
@@ -109,5 +111,54 @@ main
   line-height: 70px;
 }
 
+/****************************
+about
+*****************************/
+
+.about {
+  width: 100%;
+  height: 600px;
+  background-color: #4C5C96;
+}
+
+.about__container {
+  margin: 0 auto;
+  width: 880px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__content {
+  width: 574px;
+  height: 229px;
+}
+
+.about__content h2 {
+  margin-bottom: 19px;
+  padding-bottom: 19px;
+  text-align: right;
+  border-bottom: 2px solid #FFFFFF;
+  letter-spacing: 0.1em;
+}
+
+.about__content h3 {
+  margin-bottom: 19px;
+  text-align: right;
+}
+
+.about__content p {
+  line-height: 1.4;
+}
+
+.about__img {
+  width: 250px;
+  height: 250px;
+}
+
+.about__img img {
+  border-radius: 50%;
+}
 
 
