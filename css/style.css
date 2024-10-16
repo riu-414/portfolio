@@ -10,6 +10,13 @@ img {
   object-fit: cover;
 }
 
+a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
 a:hover {
   opacity: .7;
 }
@@ -217,4 +224,58 @@ service
 
 .service__item p {
   letter-spacing: 0.12em;
+}
+
+/****************************
+work
+*****************************/
+.work {
+  width: 100%;
+  height: 600px;
+  background-color: #3F4E85;
+}
+.work__container {
+  margin: 0 auto;
+  width: 880px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work__content {
+  width: 574px;
+  height: 329px;
+}
+.work__content h2 {
+  margin-bottom: 19px;
+  padding-bottom: 19px;
+  text-align: right;
+  border-bottom: 2px solid #FFFFFF;
+  letter-spacing: 0.1em;
+}
+.work__explanation {
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+.work__item {
+  width: 180px;
+  height: 180px;
+}
+.work__img {
+  width: 250px;
+  height: 250px;
+}
+.work__img img {
+  border-radius: 50%;
+}
+.work__btn {
+  text-align: right;
+}
+.work__btn img {
+  width: 20px;
+  height: 20px;
+}
+.work__btn a {
+  display: inline-block;
 }
