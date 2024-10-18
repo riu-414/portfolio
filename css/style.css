@@ -94,6 +94,7 @@ main
   height: 70px;
   width: 400px;
   line-height: 70px;
+  letter-spacing: 0.2em;
 }
 .main h2 {
   margin: 0 auto;
@@ -135,7 +136,18 @@ about
   text-align: right;
 }
 .about__content p {
+  margin-bottom: 16px;
   line-height: 1.4;
+}
+.about__btn {
+  text-align: right;
+}
+.about__btn img {
+  width: 20px;
+  height: 20px;
+}
+.about__btn a {
+  display: inline-block;
 }
 .about__img {
   width: 250px;
