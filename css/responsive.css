@@ -1,0 +1,10 @@
+/*****************
+responsive
+******************/
+@media screen and (max-width: 768px) {
+
+  .header {
+    background-color: rgb(251, 83, 83);
+  }
+
+}

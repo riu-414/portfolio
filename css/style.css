@@ -45,6 +45,43 @@ p {
 }
 
 /****************************
+connection
+*****************************/
+.main__about {
+  margin-top: 124px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid #4C5C96;
+  border-bottom: 50px solid #4C5C96;
+}
+.about__service {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #4C5C96;
+  border-left: 50vw solid #45558D;
+  border-right: 50vw solid #4C5C96;
+  border-bottom: 50px solid #45558D;
+}
+.service__work {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #45558D;
+  border-left: 50vw solid #45558D;
+  border-right: 50vw solid #3F4E85;
+  border-bottom: 50px solid #3F4E85;
+}
+.work__contact {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #3F4E85;
+  border-left: 50vw solid #2E3141;
+  border-right: 50vw solid #3F4E85;
+  border-bottom: 50px solid #2E3141;
+}
+
+/****************************
 header
 *****************************/
 .header {
@@ -81,7 +118,7 @@ main
 *****************************/
 .main {
   padding-top: 184px;
-  height: 620px;
+  height: calc(520px + 100px); /* MEMO:100pxは斜めの高さ */
   width: 100%;
   text-align: center;
   background-image: url(../img/main.jpg);
@@ -106,10 +143,9 @@ main
 /****************************
 about
 *****************************/
-
 .about {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-color: #4C5C96;
 }
 .about__container {
@@ -162,7 +198,7 @@ service
 *****************************/
 .service {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-color: #45558D;
 }
 .service__container {
@@ -210,7 +246,7 @@ work
 *****************************/
 .work {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-color: #3F4E85;
 }
 .work__container {
@@ -275,9 +311,9 @@ work
 contact
 *****************************/
 .contact {
-  padding-top: 82px;
+  padding-top: 40px;
   width: 100%;
-  height: 750px;
+  height: 650px;
   background-color: #2E3141;
 }
 .contact__container {
