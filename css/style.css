@@ -240,6 +240,13 @@ work
 .work__item {
   width: 180px;
   height: 180px;
+  overflow:hidden;
+}
+.work__item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
 }
 .work__img {
   width: 250px;
@@ -247,6 +254,11 @@ work
 }
 .work__img img {
   border-radius: 50%;
+  overflow:hidden;
+}
+.work__item img:hover {
+  transform:scale(1.1,1.1);
+  transition:1s all;
 }
 .work__btn {
   text-align: right;
