@@ -1,47 +1,42 @@
-/* common */
+/****************************
+common
+****************************/
 body {
   color: #434343;
   background-color: #f8f8f8;
 }
-
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 a {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
 }
-
 a:hover {
   opacity: .7;
 }
-
 h1 {
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-
 h2 {
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-
 h3 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #FFFFFF;
 }
-
 p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -52,7 +47,7 @@ p {
 /****************************
 header
 *****************************/
-header {
+.header {
   padding: 0 80px;
   height: 80px;
   width: 100%;
@@ -71,17 +66,14 @@ header {
 .header__icon--x {
   width: 32px;
   height: 32px;
-  background-color: aqua;
 }
 .header__icon--github {
   width: 40px;
   height: 40px;
-  background-color: aqua;
 }
 .header__icon--qiita {
   width: 48px;
-  height: 14.63px;
-  background-color: aqua;
+  height: 30px;
 }
 
 /****************************
