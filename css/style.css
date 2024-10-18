@@ -52,7 +52,6 @@ p {
 /****************************
 header
 *****************************/
-
 header {
   padding: 0 80px;
   height: 80px;
@@ -62,7 +61,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .header__icon {
   width: 200px;
   height: 50px;
@@ -70,19 +68,16 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .header__icon--x {
   width: 32px;
   height: 32px;
   background-color: aqua;
 }
-
 .header__icon--github {
   width: 40px;
   height: 40px;
   background-color: aqua;
 }
-
 .header__icon--qiita {
   width: 48px;
   height: 14.63px;
@@ -92,7 +87,6 @@ header {
 /****************************
 main
 *****************************/
-
 .main {
   padding-top: 184px;
   height: 620px;
@@ -102,7 +96,6 @@ main
   background-size: cover;
   background-position: center;
 }
-
 .main h1 {
   margin: 0 auto;
   margin-bottom: 72px;
@@ -110,7 +103,6 @@ main
   width: 400px;
   line-height: 70px;
 }
-
 .main h2 {
   margin: 0 auto;
   height: 70px;
@@ -127,7 +119,6 @@ about
   height: 600px;
   background-color: #4C5C96;
 }
-
 .about__container {
   margin: 0 auto;
   width: 880px;
@@ -136,12 +127,10 @@ about
   justify-content: space-between;
   align-items: center;
 }
-
 .about__content {
   width: 574px;
   height: 229px;
 }
-
 .about__content h2 {
   margin-bottom: 19px;
   padding-bottom: 19px;
@@ -149,21 +138,17 @@ about
   border-bottom: 2px solid #FFFFFF;
   letter-spacing: 0.1em;
 }
-
 .about__content h3 {
   margin-bottom: 19px;
   text-align: right;
 }
-
 .about__content p {
   line-height: 1.4;
 }
-
 .about__img {
   width: 250px;
   height: 250px;
 }
-
 .about__img img {
   border-radius: 50%;
 }
@@ -171,13 +156,11 @@ about
 /****************************
 service
 *****************************/
-
 .service {
   width: 100%;
   height: 600px;
   background-color: #45558D;
 }
-
 .service__container {
   margin: 0 auto;
   width: 880px;
@@ -186,42 +169,34 @@ service
   justify-content: space-between;
   align-items: center;
 }
-
 .service__img {
   width: 250px;
   height: 250px;
 }
-
 .service__img img {
   border-radius: 50%;
 }
-
 .service__content {
   width: 574px;
   height: 250px;
 }
-
 .service__content h2 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #FFFFFF;
 }
-
 .service__explanation {
   display: flex;
   justify-content: space-between;
 }
-
 .service__item {
   width: 180px;
   height: 180px;
 }
-
 .service__item h3 {
   margin-bottom: 16px;
   text-align: center;
 }
-
 .service__item p {
   letter-spacing: 0.12em;
 }
@@ -279,3 +254,72 @@ work
 .work__btn a {
   display: inline-block;
 }
+
+/****************************
+contact
+*****************************/
+.contact {
+  padding-top: 82px;
+  width: 100%;
+  height: 750px;
+  background-color: #2E3141;
+}
+.contact__container {
+  margin: 0 auto;
+  width: 400px;
+  height: 585px;
+}
+.contact h2 {
+  margin-bottom: 62px;
+  text-align: center;
+}
+.contact form {
+  height: 472px;
+}
+.contact__item {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 76px;
+}
+.contact__item:nth-of-type(3) {
+  margin-bottom: 44px;
+  height: 174px;
+}
+.contact__item p {
+  margin-bottom: 8px;
+}
+input {
+  width: 100%;
+  height: 44px;
+  border: 2px solid rgba(255, 255, 255, .25);
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  height: 142px;
+  border: 2px solid rgba(255, 255, 255, .25);
+  border-radius: 4px;
+}
+input[type="submit"]{
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  height: 40px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, .25);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
