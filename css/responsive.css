@@ -2,9 +2,245 @@
 responsive
 ******************/
 @media screen and (max-width: 768px) {
+  /****************************
+  common
+  ****************************/
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
 
+  /****************************
+  connection
+  *****************************/
+  .main__about {
+    margin-top: 126px;
+    width: 100%;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid #4C5C96;
+    border-bottom: 20px solid #4C5C96;
+  }
+  .about__service {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #4C5C96;
+    border-left: 50vw solid #45558D;
+    border-right: 50vw solid #4C5C96;
+    border-bottom: 20px solid #45558D;
+  }
+  .service__work {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #45558D;
+    border-left: 50vw solid #45558D;
+    border-right: 50vw solid #3F4E85;
+    border-bottom: 20px solid #3F4E85;
+  }
+  .work__contact {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #3F4E85;
+    border-left: 50vw solid #2E3141;
+    border-right: 50vw solid #3F4E85;
+    border-bottom: 20px solid #2E3141;
+  }
+
+  /****************************
+  header
+  *****************************/
   .header {
-    background-color: rgb(251, 83, 83);
+    padding: 21px 0 0 0;
+    position: relative;
+    display: block;
+  }
+  .header__title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header__icon {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    bottom: -36px;
+    right: 32px;
+  }
+  .header__icon--x {
+    width: 20px;
+    height: 20px;
+  }
+  .header__icon--github {
+    width: 20px;
+    height: 20px;
+  }
+  .header__icon--qiita {
+    width: 48px;
+    height: 16px;
+  }
+
+  /****************************
+  main
+  *****************************/
+  .main {
+    padding-top: 106px;
+    height: 375px;
+  }
+  .main h1 {
+    margin-bottom: 27px;
+    width: 270px;
+    height: 38px;
+  }
+  .main h2 {
+    width: 200px;
+    height: 38px;
+  }
+
+  /****************************
+  about
+  *****************************/
+  .about {
+    padding-top: 16px;
+    height: 535px;
+  }
+  .about__container {
+    margin: 0 auto;
+    width: 311px;
+    height: 460px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about__content {
+  width: 311px;
+  height: 249px;
+  }
+  .about__img {
+    margin: 0 0 0 auto;
+    width: 160px;
+    height: 160px;
+  }
+
+
+  /****************************
+  service
+  *****************************/
+  .service {
+    padding: 16px 0;
+    height: 535px;
+  }
+  .service__container {
+    width: 311px;
+  }
+  .service__container {
+    flex-direction: column;
+  }
+  .service__img {
+    margin: 0 auto 0 0;
+    width: 160px;
+    height: 160px;
+  }
+  .service__content {
+    width: 100%;
+    height: 300px;
+  }
+  .service__explanation ul {
+    display: block;
+  }
+  .service__item--title {
+    width: 311px;
+  }
+  .service__item--title h3 {
+    text-align: left;
+  }
+  .accordion__btn {
+    display: block;
+    top: 21px;
+    right: 0;
+    width: 18px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+  }
+  .accordion__btn2 {
+    display: block;
+    top: 21px;
+    right: 0;
+    width: 18px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: rotate(90deg);
+    transition: .7s;
+  }
+  .service__item--title.open .accordion__btn2 {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  .service__item--text {
+    display: flex;
+    width: 311px;
+    height: 115px;
+    height: 0;
+    overflow: hidden;
+    transition: .7s;
+  }
+  .service__item--text.open {
+    height: 60px;
+  }
+
+  /****************************
+  work
+  *****************************/
+  .work {
+    padding: 16px 0;
+    height: 535px;
+  }
+  .work__container {
+    flex-direction: column-reverse;
+  }
+  .work__content {
+    width: 100%;
+    height: 329px;
+  }
+  .work__item:nth-of-type(2) {
+    display: none;
+  }
+  .work__item:nth-of-type(3) {
+    display: none;
+  }
+  .work__explanation {
+    justify-content: center;
+  }
+  .work__item {
+    width: 311px;
+    height: 178px;
+  }
+  .work__img {
+    margin: 0 0 0 auto;
+    width: 160px;
+    height: 160px;
+  }
+
+  /****************************
+  contact
+  *****************************/
+  .contact__container {
+    width: 311px;
+  }
+
+  /****************************
+  footer
+  *****************************/
+  .footer {
+    height: 56px;
   }
 
 }
