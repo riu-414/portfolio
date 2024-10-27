@@ -232,6 +232,7 @@ service
 .service__explanation ul {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
 }
 .service__explanation ul li {
   width: 180px;
@@ -403,5 +404,125 @@ footer
   align-items: center;
   justify-content: center;
   background-color: #3F3F3F;
+}
+
+
+/****************************
+about.htmlとwork.htmlの背景
+***********************************************/
+.bg {
+  width: 100%;
+  height: 100%;
+}
+.bg1 {
+  width: 100%;
+  height: 400px;
+  background-color: #4C5C96;
+}
+.bg2 {
+  width: 100%;
+  height: 400px;
+  background-color: #45558D;
+}
+.bg3 {
+  width: 100%;
+  height: 400px;
+  background-color: #3F4E85;
+}
+.bg1-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #4C5C96;
+  border-right: 50vw solid #45558D;
+  border-left: 50vw solid #4C5C96;
+  border-bottom: 50px solid #45558D;
+}
+.bg2-3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #45558D;
+  border-right: 50vw solid #45558D;
+  border-left: 50vw solid #3F4E85;
+  border-bottom: 50px solid #3F4E85;
+}
+
+
+/****************************
+about.html
+***********************************************/
+.about__top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.breadcrumb-trail {
+  margin: 48px 0 0 124px;
+}
+.about__top--content {
+  width: 100%;
+  height: 1400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about__top--content h1 {
+  margin: 120px 0 260px 0;
+  display: grid;
+  place-content: center;
+}
+.about__top--text {
+  margin-bottom: 150px;
+  width: 880px;
+  margin-inline: auto;
+}
+.about__top--text p {
+  margin-bottom: 8px;
+}
+.about__top--explanation {
+  margin-bottom: 300px;
+  width: 880px;
+  height: 240px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about__top--img {
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1 / 1;
+}
+.about__top--img img {
+  border-radius: 100vmax;
+}
+.about__top--explanation-box {
+  width: 545px;
+  height: 100%;
+  display: flex;
+}
+.about__top--box1 {
+  width: 120px;
+}
+.about__top--box1 p,
+.about__top--box2 p,
+.about__top--box2 div {
+  margin-bottom: 19px;
+}
+.about__top--box2 div a {
+  margin-right: 16px;
+}
+.about__top--btn {
+  width: 240px;
+  height: 40px;
+  margin-inline: auto;
+  border: 2px solid rgba(255, 255, 255, .25);
+  border-radius: 4px;
+}
+.about__top--btn a {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.4em;
 }
 
