@@ -1,7 +1,7 @@
 /*****************
 responsive
 ******************/
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /****************************
   common
   ****************************/
@@ -175,7 +175,7 @@ responsive
     right: 0;
     width: 18px;
     height: 2px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: absolute;
     transform: rotate(90deg);
     transition: .7s;
