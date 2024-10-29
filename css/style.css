@@ -475,19 +475,22 @@ about.html
 }
 .about__top--text {
   margin-bottom: 150px;
-  width: 880px;
+  padding: 32px;
+  max-width: 880px;
   margin-inline: auto;
 }
 .about__top--text p {
   margin-bottom: 8px;
 }
 .about__top--explanation {
-  margin-bottom: 300px;
-  width: 880px;
+  margin-bottom: 240px;
+  padding: 32px;
+  max-width: 880px;
   height: 240px;
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 .about__top--img {
   width: 200px;
@@ -498,12 +501,12 @@ about.html
   border-radius: 100vmax;
 }
 .about__top--explanation-box {
-  width: 545px;
+  max-width: 545px;
   height: 100%;
   display: flex;
 }
 .about__top--box1 {
-  width: 120px;
+  width: 160px;
 }
 .about__top--box1 p,
 .about__top--box2 p,
