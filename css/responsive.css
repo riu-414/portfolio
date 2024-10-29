@@ -1,4 +1,22 @@
 /*****************
+work.html grid調整用
+******************/
+@media (max-width: 900px) {
+  .work__top--content h1 {
+    margin: 80px 0 140px 0;
+  }
+  .work__top--box {
+    margin-bottom: 240px;
+    width: 560px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 80px;
+  }
+}
+
+
+
+
+/*****************
 responsive
 ******************/
 @media (max-width: 768px) {
@@ -243,4 +261,78 @@ responsive
     height: 56px;
   }
 
+  /****************************
+  about.htmlとwork.htmlの共通
+  ***********************************************/
+  .bg {
+    width: 100%;
+    height: 100%;
+  }
+  .bg1 {
+    width: 100%;
+    height: 400px;
+    background-color: #4C5C96;
+  }
+  .bg2 {
+    width: 100%;
+    height: 400px;
+    background-color: #45558D;
+  }
+  .bg3 {
+    width: 100%;
+    height: 400px;
+    background-color: #3F4E85;
+  }
+  .bg1-2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #4C5C96;
+    border-right: 50vw solid #45558D;
+    border-left: 50vw solid #4C5C96;
+    border-bottom: 20px solid #45558D;
+  }
+  .bg2-3 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #45558D;
+    border-right: 50vw solid #45558D;
+    border-left: 50vw solid #3F4E85;
+    border-bottom: 20px solid #3F4E85;
+  }
+  .breadcrumb-trail {
+    margin: 32px 0 0 32px;
+  }
+
+  /****************************
+  about.html
+  ***********************************************/
+
+
+
+
+
+
+
+  /****************************
+  work.html
+  ***********************************************/
+  .work__top--content h1 {
+    margin: 80px 0 80px 0;
+  }
+  .work__top--content {
+    height: 1280px;
+  }
+  .work__top--box {
+    margin-bottom: 220px;
+    width: 240px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px 80px;
+  }
+  .work__top--img:nth-of-type(n+4) {
+    display: none;
+  }
+
+
 }
+
+

@@ -93,6 +93,9 @@ header
   justify-content: space-between;
   align-items: center;
 }
+.header a:hover {
+  opacity: 1.0;
+}
 .header__icon {
   width: 200px;
   height: 50px;
@@ -408,7 +411,7 @@ footer
 
 
 /****************************
-about.htmlとwork.htmlの背景
+about.htmlとwork.htmlの共通
 ***********************************************/
 .bg {
   width: 100%;
@@ -445,6 +448,9 @@ about.htmlとwork.htmlの背景
   border-left: 50vw solid #3F4E85;
   border-bottom: 50px solid #3F4E85;
 }
+.breadcrumb-trail {
+  margin: 48px 0 0 124px;
+}
 
 
 /****************************
@@ -454,9 +460,6 @@ about.html
   width: 100%;
   height: 100%;
   position: relative;
-}
-.breadcrumb-trail {
-  margin: 48px 0 0 124px;
 }
 .about__top--content {
   width: 100%;
@@ -525,4 +528,72 @@ about.html
   text-align: center;
   letter-spacing: 0.4em;
 }
+
+/****************************
+work.html
+***********************************************/
+.work__top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.work__top--content {
+  width: 100%;
+  height: 1400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.work__top--content h1 {
+  margin: 120px 0 180px 0;
+  display: grid;
+  place-content: center;
+}
+.work__top--box {
+  margin-inline: auto;
+  margin-bottom: 140px;
+  max-width: 880px;
+  height: 620px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 140px 80px;
+}
+.work__top--img {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+}
+.work__top--img img:hover {
+  transform:scale(1.1,1.1);
+  transition:1s all;
+}
+.work__top--page {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 100px;
+  text-align: center;
+}
+.work__top--btn {
+  width: 240px;
+  height: 40px;
+  margin-inline: auto;
+  border: 2px solid rgba(255, 255, 255, .25);
+  border-radius: 4px;
+}
+.work__top--btn a {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.4em;
+}
+
+
+
+
+
+
+
+
 
